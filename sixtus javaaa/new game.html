@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title><link rel="stylesheet" href="newgame.css">
+</head>
+<body onload="load()">
+    <div id="welcome">
+        <h1>Welcome To Guess The Number</h1>
+        <button onclick= "hidewelcome()">Start Game</button> 
+        <!-- <button onclick="" type="submit">End Game</button> -->
+    </div>
+        
+        
+  <div id=game1>
+<p><b>We have selected a random number between 1 - 10.  
+See if you can guess it.</b></p> 
+  
+<div class="form"> 
+    <label for="guessField">Enter a guess: </label> 
+    <input type = "text" id = "guessField" class = "guessField"> 
+    <input type = "submit" value = "Submit guess" 
+           class = "guessSubmit" id = "submitguess">
+</div> 
+
+<p id="pee">CONGRATULATIONS..>>></p>
+</div> 
+<script src="newgame.js"></script>
+</body>
+</html>

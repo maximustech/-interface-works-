@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:0;
+}
+header{
+    height: 80vh;
+    background-image:linear-gradient(rgba(200, 86, 105, 0.945),rgba(167, 72, 88, 0.34)), url(body.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat no-repeat ;
+}
+#nav-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+#logo{
+    height: 7vh;
+    padding: 10px;
+    
+}
+.main-nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+.main-nav li:hover{text-decoration: red underline;}
+
+.main-nav li{
+    margin-left:15px;
+    padding-right: 20px;
+    margin-top: 23px;
+    
+}
+.main-nav li a{
+    text-transform: capitalize;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: rgb(248, 246, 246);
+    text-decoration: none;
+    border-bottom: solid transparent;
+   
+    
+}
+h1{
+    color: white;
+    margin-top:30px;
+    margin-bottom: 20px;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    padding: 10px;
+    /* text-align: right; */
+}
+.pwr-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 200px;
+    border: 1px solid rgb(236, 103, 125);
+    text-decoration: none;
+    font-weight:200px;
+    background-color: rgb(251, 109, 132);
+    color:white;
+    margin-left: 10px;
+}
+.super-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 200px;
+    border: 1px solid rgb(236, 103, 125);
+    text-decoration: none;
+    font-weight:200px;
+    color:white;
+}
+
+.on-btn:hover{
+background-color: rgb(245, 66, 130);
+}
+
+.off-btn:hover{
+    background-color: rgb(245, 66, 95);
+    color: white;
+    transition: 3s linear;
+    text-decoration: initial;
+}
+    
+#big-man{
+    margin-left: 800px;
+
+}

@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: radial-gradient(rgba(219, 138, 108, 0.965), rgba(106, 106, 195, 0.965))
+}
+header{
+    text-align: center;
+}

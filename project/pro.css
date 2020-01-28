@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+
+    background-color: #fff;
+    color:#666;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300px;
+    font-size:20px;
+    text-rendering: optimizeLegibility;
+}
+
+header{
+    height: 80vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(imgb.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+} 
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    height: 40px;
+    width:auto;
+    /* margin-left: 10px; */
+    margin-top: 10px;
+    padding: 30px;
+}
+.main-nav{
+    display: flex;
+    list-style: none;
+}
+.main-nav li{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding:10px;
+    color:#fff;
+    text-transform: capitalize; 
+    text-decoration:none;
+    font-size: 70%;
+    border-bottom:2px solid transparent; 
+}
+.main-nav li a:hover, .main-nav li a:active{
+    border-bottom: 2px solid red;
+}
+.hero-text-box{
+    margin-top: 110px;
+}
+ h1{
+    color: white;
+    margin-top:0;
+    margin-bottom: 20px;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+
+}
+.hero-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 200px;
+    border: 1px solid orange;
+    /* color:white; */
+    font-weight:300;
+    text-decoration: none;
+}
+.btn-full{
+    background-color: orange;
+    color:white;
+    margin-right:10px;
+}
+.btn-ghost{
+    color:orange;
+}
+.hero-btn:hover{
+    background-color: rgb(212, 140, 5);
+    color: white;
+    transition: .2s linear;
+}
